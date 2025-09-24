@@ -276,8 +276,8 @@ export default function Portfolio() {
                 <div className="text-6xl font-bold mb-4 opacity-50">1</div>
                 <div className="w-full h-32 bg-white/20 rounded-lg mb-4 overflow-hidden">
                   <img
-                    src="/images/admin-new.png"
-                    alt="Admin Dashboard Interface"
+                    src="/images/figma-2.png"
+                    alt="HoloBizCard Website Interface"
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
@@ -288,12 +288,42 @@ export default function Portfolio() {
                   ออกแบบ User Interface และ User Experience สำหรับพัฒนานามบัตรเสมือนจริง (AR Business Card)
                   โดยประยุกต์ใช้กับเทคโนโลยี Augmented Reality
                 </p>
-                <button
-                  onClick={() => window.open("https://example.com/project1", "_blank")}
-                  className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
-                >
-                  View Project →
-                </button>
+                <div className="space-y-2">
+                  <button
+                    onClick={() =>
+                      window.open(
+                        "https://www.figma.com/proto/ZxqUQZcqyp43S1BaEf4Piq/Website-Page?node-id=629-159&t=xOEkfRHVowY9hRSw-1&scaling=contain&content-scaling=fixed&page-id=629%3A156",
+                        "_blank",
+                      )
+                    }
+                    className="w-full inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  >
+                    View Project 1 →
+                  </button>
+                  <button
+                    onClick={() => window.open("https://v0.app/chat/recreate-figma-ui-bNGjL1lSkFW", "_blank")}
+                    className="w-full inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  >
+                    View Project 2 →
+                  </button>
+                  <button
+                    onClick={() =>
+                      window.open(
+                        "https://www.figma.com/proto/ZxqUQZcqyp43S1BaEf4Piq/Website-Page?node-id=974-4351&t=5hFaQTdjmzMepgb8-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+                        "_blank",
+                      )
+                    }
+                    className="w-full inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  >
+                    View Project 3 →
+                  </button>
+                  <button
+                    onClick={() => window.open("https://v0.app/chat/modern-newsletter-form-dSB2lFI60Ao", "_blank")}
+                    className="w-full inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  >
+                    View Project 4 →
+                  </button>
+                </div>
               </CardContent>
             </Card>
 
@@ -303,8 +333,8 @@ export default function Portfolio() {
                 <div className="text-6xl font-bold mb-4 opacity-30">2</div>
                 <div className="w-full h-32 bg-yellow-200/50 rounded-lg mb-4 overflow-hidden">
                   <img
-                    src="/images/project.gif"
-                    alt="IoT Automatic Savings Project"
+                    src="/images/project-2.png"
+                    alt="Automatic Piggy Bank Hardware Project"
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
@@ -316,7 +346,12 @@ export default function Portfolio() {
                   และเซ็นเซอร์ในการตรวจจับเหรียญ
                 </p>
                 <button
-                  onClick={() => window.open("https://example.com/project2", "_blank")}
+                  onClick={() =>
+                    window.open(
+                      "https://www.canva.com/design/DAGzrHnj1CI/m55awZBSFyxkSmXajwq51g/edit?utm_content=DAGzrHnj1CI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                      "_blank",
+                    )
+                  }
                   className="inline-flex items-center px-4 py-2 bg-yellow-600 hover:bg-yellow-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-400"
                 >
                   View Project →
@@ -330,8 +365,8 @@ export default function Portfolio() {
                 <div className="text-6xl font-bold mb-4 opacity-50">3</div>
                 <div className="w-full h-32 bg-orange-300/30 rounded-lg mb-4 overflow-hidden">
                   <img
-                    src="/images/poster.gif"
-                    alt="AI Event Poster"
+                    src="/images/poster.png"
+                    alt="AI Training Activity Poster"
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
@@ -342,7 +377,12 @@ export default function Portfolio() {
                   ออกแบบโปสเตอร์ประชาสัมพันธ์กิจกรรมอบรมเชิงปฏิบัติการให้กับหน่วยงานSME จังหวัดแพร่
                 </p>
                 <button
-                  onClick={() => window.open("/images/poster.gif", "_blank")}
+                  onClick={() =>
+                    window.open(
+                      "https://www.canva.com/design/DAGdcpyglm4/B3k1n79IKMqLt9sZrEWqCQ/edit?utm_content=DAGdcpyglm4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                      "_blank",
+                    )
+                  }
                   className="inline-flex items-center px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
                 >
                   View Poster →
@@ -356,8 +396,8 @@ export default function Portfolio() {
                 <div className="text-6xl font-bold mb-4 opacity-50">4</div>
                 <div className="w-full h-32 bg-pink-300/30 rounded-lg mb-4 overflow-hidden">
                   <img
-                    src="/images/application.gif"
-                    alt="AgriTech Mobile App"
+                    src="/images/application.png"
+                    alt="AgriTech Logo"
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
@@ -368,7 +408,12 @@ export default function Portfolio() {
                   ออกแบบเทมเพลตการใช้งานแอปพลิเคชัน ให้เหมาะสมกับความต้องการและพฤติกรรมของผู้ใช้งาน
                 </p>
                 <button
-                  onClick={() => window.open("https://example.com/project4", "_blank")}
+                  onClick={() =>
+                    window.open(
+                      "https://www.canva.com/design/DAFqTSnnFtw/NE2Qcje67dz9zqZW8AUCwQ/edit?utm_content=DAFqTSnnFtw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                      "_blank",
+                    )
+                  }
                   className="inline-flex items-center px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white text-sm rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-pink-400"
                 >
                   View Project →
