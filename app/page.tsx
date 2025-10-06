@@ -126,9 +126,9 @@ export default function Portfolio() {
               </div>
               <div className="mb-8">
                 <p className="text-base text-muted-foreground leading-relaxed text-pretty">
-                  Final-year student with a strong passion for UX/UI design and a user-centric approach to
-                  problem-solving. Eager to develop front-end development skills to effectively bring design concepts to
-                  life.
+                  A senior-year student is passionate about developing a career in Systems Analysis and Software
+                  Testing, with a solid understanding of business process flows and a foundation in UX/UI Design. I'm
+                  eager to learn new technologies and contribute to building effective and user-oriented systems.
                 </p>
               </div>
             </div>
@@ -207,6 +207,14 @@ export default function Portfolio() {
                     <img src="/images/microsoft-office.png" alt="Microsoft Office" className="w-8 h-8 rounded-lg" />
                     <span className="text-sm text-card-foreground">Microsoft Office</span>
                   </div>
+                  <div className="flex items-center gap-3">
+                    <img src="/images/credit.jpg" alt="Credit Analysis" className="w-8 h-8 rounded-lg object-cover" />
+                    <span className="text-sm text-card-foreground">Credit Analysis & Contract Review</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <img src="/images/data.png" alt="Data Management" className="w-8 h-8 rounded-lg object-cover" />
+                    <span className="text-sm text-card-foreground">Data Management</span>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -235,20 +243,20 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            {/* Interest Card */}
+            {/* Interpersonal Skills Card */}
             <Card className="p-6 hover:shadow-lg transition-shadow">
               <CardContent className="p-0">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-5 h-5 bg-[#e8d5e8] rounded-full"></div>
-                  <h3 className="text-lg font-semibold text-card-foreground">Interest</h3>
+                  <h3 className="text-lg font-semibold text-card-foreground">Interpersonal Skills</h3>
                 </div>
                 <div className="space-y-3 text-sm text-card-foreground">
-                  <p>UX/UI Design Layout & Style</p>
-                  <p>Digital Art & Illustration</p>
-                  <p>Front-end Development</p>
-                  <p>Graphic Design and Creative Media</p>
-                  <p>Team Collaboration</p>
-                  <p>Creative Problem Solving</p>
+                  <p>Teamwork & Collaboration</p>
+                  <p>Decision-Making</p>
+                  <p>Creativity & UX Thinking</p>
+                  <p>Time Management</p>
+                  <p>Multitasking</p>
+                  <p>Attention to Detail</p>
                 </div>
               </CardContent>
             </Card>
@@ -521,7 +529,7 @@ export default function Portfolio() {
             <div className="text-lg font-normal text-background/80">Phornpawee</div>
           </div>
           <p className="text-background/80 mb-4">
-            UX/UI Designer passionate about creating meaningful digital experiences
+            Passionate about System Analysis, Software Testing, and crafting meaningful digital experiences.
           </p>
           <p className="text-background/60 text-sm">Made with ❤️ © 2025 Phornpawee. All rights reserved.</p>
         </div>
